@@ -42,22 +42,27 @@ body {
 
 .sub-menu-logo li:hover {
     background: #232220;
+    cursor: pointer
 }
 
 .logo:hover .sub-menu-logo {
     display: block;
+    cursor: pointer
 }
 
 .puzzles:hover .sub-menu-puzzles {
     display: block;
+    cursor: pointer
 }
 
 .play:hover .sub-menu-play {
     display: block;
+    cursor: pointer
 }
 
 .learn:hover .sub-menu-learn {
     display: block;
+    cursor: pointer
 }
 
 
@@ -67,12 +72,17 @@ li {
 
 .sidebar li:hover {
     background: #2d2c2a;
+    cursor: pointer
 }
 
 #logo {
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#logo:hover {
+    cursor: pointer;
 }
 
 .body-container {
@@ -127,8 +137,10 @@ li {
 
 .play-buttons button {
     text-align: left;
-    padding: 20px 20px 20px 10px;
+    padding: 25px 10px 25px 10px;
     background: #393935;
     color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 2px -2px #2d2c2a;
 }
 
