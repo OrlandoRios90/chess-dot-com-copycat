@@ -121,10 +121,8 @@ li {
 .games-container img {
     width: 220px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
-
-
 
 #play-top {
     display: flex;
@@ -139,8 +137,84 @@ li {
     flex-direction: row; 
 }
 
+.write-a-note {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    height: 4rem;
+}
 
-.play-boards{
+.write-a-note button {
+    padding: 10px;
+    color: lightgray;
+    background: #51504c;
+    border-radius: 5px;
+}
+
+.daily-games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    margin-top: 2.6rem;
+    background: #393935;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.live-header h4 {
+    color: white;
+    padding: 10px;
+}
+
+.live-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #393935;
+    margin-top: 1.4rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-container {
+    width: 65%;
+}
+
+.live-container {
+    background: #393935;
+    margin-top: 2.6rem;
+    margin-right: 7rem;
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.line-1 {
+    height: 1px;
+    background: lightgray;
+    opacity: 50%;
+    width: 95%;
+    align-self: center;
+}
+
+.play-boards {
     display: flex;
     flex-direction: row;
     gap: 25px;
@@ -180,6 +254,6 @@ li {
     height: 4rem;
     background: #393935;
     color: white;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     box-shadow: 0 5px 2px -2px #2d2c2a;
 }
